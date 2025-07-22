@@ -1,19 +1,19 @@
 # Configurazione GNSS RTK di esempio
 
 # Rover (dispositivo mobile)
-#rover name: U2L0
+#rover name: TEST
 #rover SN: 1012
-#rover coordinates: 46.037476167,13.25301545,149.29
+#rover coordinates: 22.015784568,11.25658947,149.29
 #rover anttype: ArduSimple AS-ANT2B-CAL-L1L2-15SMA-00
 
 # Stazione di riferimento (master)
-#master name: UDI1
+#master name: MSTR
 #master coordinates: 46.037346583,13.253101861,149.258
 
 # NTRIP Caster (correzioni RTK)
-#mcaster ip: 158.110.30.81
+#mcaster ip: 10.0.0.10
 #mcaster port: 2110
-#mcaster mountpoint: OGS_UDI1
+#mcaster mountpoint: OGS_TEST
 #mcaster user: TEST
 #mcaster password: TEST
 #mcaster stream: rtcm3
@@ -22,6 +22,6 @@
 #pcaster ip: products.igs-ip.net
 #pcaster port: 2101
 #pcaster mountpoint: RTCM3EPH
-#pcaster user: dzuliani
-#pcaster password: DavidZ20
+#pcaster user: USER
+#pcaster password: PASSWD
 #pcaster stream: rtcm3
