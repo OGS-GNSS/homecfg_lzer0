@@ -2,6 +2,5 @@ rtkrcv.curr.conf
 sites.cfg
 rtkrcv.nav
 default.ubx
-rnx2rtkp.curr.conf
 ubx.m8t.cmd
 
